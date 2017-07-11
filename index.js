@@ -70,5 +70,5 @@ module.exports = (API) => {
 
   const electronOutput = wrapWithHeaderAndFooter(outputLines, API[0].version)
 
-  return appendNodeJSOverride(electronOutput)
+  return electronOutput
 }
